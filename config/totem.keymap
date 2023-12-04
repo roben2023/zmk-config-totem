@@ -59,7 +59,8 @@
                 <&macro_release>,
                 <&kp LSHFT>,
                 <&macro_tap>,
-                <&kp G &kp I &kp F>;
+                <&kp G &kp I &kp F>,
+                <&macro_press>;
         };
     };
 
@@ -137,10 +138,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC   &trans       &trans    &trans           &trans         &trans     &trans         &trans        &trans                &trans
-        &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR       &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans  &trans    &trans       &trans    &mt LA(TAB) TAB  &mt RC(C) C    &trans     &trans         &trans        &trans                &trans                 &trans
-                               &trans    &trans           &trans         &trans     &trans         &trans
+        &kp ESC   &trans       &trans             &trans           &trans          &trans     &trans         &trans        &trans                &trans
+        &kp EXCL  &kp AT_SIGN  &kp HASH           &kp DOLLAR       &kp PERCENT     &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans  &trans    &kp LC(X)    &kp LC(C)          &kp LC(V)        &kp TAB         &trans     &trans         &trans        &trans                &trans                 &trans
+                               &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_ALT    &trans     &trans         &trans
             >;
         };
 
