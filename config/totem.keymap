@@ -137,10 +137,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC   &trans       &trans    &trans      &trans         &trans     &trans         &trans        &trans                &trans
-        &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans  &trans    &trans       &trans    &trans      &trans         &trans     &trans         &trans        &trans                &trans                 &trans
-                               &trans    &trans      &trans         &trans     &trans         &trans
+        &kp ESC   &trans       &trans    &trans       &trans         &trans     &trans         &trans        &trans                &trans
+        &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR   &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans  &trans    &trans       &trans    &kp LA(TAB)  &kp LC(C)      &trans     &trans         &trans        &trans                &trans                 &trans
+                               &trans    &trans       &trans         &trans     &trans         &trans
             >;
         };
 
