@@ -114,7 +114,7 @@
             bindings = <
         &kp ESC          &trans           &kp LEFT_BRACE   &kp LEFT_BRACKET  &trans             &trans           &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp KP_N9        &kp KP_PLUS
         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4   &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7    &kp KP_NUMBER_8    &kp KP_NUMBER_9  &kp KP_NUMBER_0
-&trans  &trans           &kp BACKSLASH    &kp MINUS        &kp UNDER         &kp F5             &kp PLUS         &kp SQT            &kp DOUBLE_QUOTES  &kp PIPE         &trans           &trans
+&trans  &trans           &kp BACKSLASH    &kp MINUS        &kp UNDER         &kp EQUAL          &kp PLUS         &kp SQT            &kp DOUBLE_QUOTES  &kp PIPE         &trans           &trans
                                           &bt BT_CLR       &bt BT_PRV        &trans             &trans           &trans             &trans
             >;
         };
