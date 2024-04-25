@@ -164,10 +164,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp TAB      &bt BT_CLR  &out OUT_TOG    &trans  &trans        &trans          &kp UP_ARROW  &trans     &trans  &trans
-        &bootloader  &bt BT_NXT  &bt BT_CLR_ALL  &trans  &trans        &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans       &bt BT_PRV  &trans          &trans  &trans        &trans          &trans        &trans     &trans  &trans  &trans
-                                 &kp LEFT_ALT    &trans  &kp DELETE    &trans          &trans        &trans
+        &kp TAB      &bt BT_CLR  &out OUT_TOG    &trans        &trans        &trans  &trans    &kp UP_ARROW  &trans     &trans
+        &bootloader  &bt BT_NXT  &bt BT_CLR_ALL  &trans        &trans        &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
+&trans  &trans       &bt BT_PRV  &trans          &trans        &trans        &trans  &trans    &trans        &trans     &trans  &trans
+                                 &trans          &kp LEFT_ALT  &kp DELETE    &trans  &trans    &trans
             >;
         };
 
