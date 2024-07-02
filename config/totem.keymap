@@ -163,10 +163,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp TAB      &trans  &trans  &trans        &trans        &trans  &trans    &kp UP_ARROW  &trans     &trans
-        &bootloader  &trans  &trans  &trans        &trans        &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
-&trans  &trans       &trans  &trans  &trans        &trans        &trans  &trans    &trans        &trans     &trans  &trans
-                             &trans  &kp LEFT_ALT  &kp DELETE    &trans  &trans    &trans
+        &kp TAB      &trans                &trans  &trans        &trans        &trans  &trans    &kp UP_ARROW  &trans     &trans
+        &bootloader  &kp LC(LS(NUMBER_4))  &trans  &trans        &trans        &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
+&trans  &trans       &trans                &trans  &trans        &trans        &trans  &trans    &trans        &trans     &trans  &trans
+                                           &trans  &kp LEFT_ALT  &kp DELETE    &trans  &trans    &trans
             >;
         };
 
