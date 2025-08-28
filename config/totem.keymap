@@ -59,7 +59,20 @@
                 <&kp LSHFT>,
                 <&macro_tap>,
                 <&kp G &kp I &kp F>,
-                <&macro_press>;
+                <&macro_press>,
+                <&kp>;
+        };
+
+        Password: Password {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LS(M) &kp R &kp T &kp W &kp O &kp UNDER &kp N5 &kp N0 &kp N7 &kp N1 &kp N9 &kp N0 &kp N3 &kp EXCL>,
+                <&macro_tap>,
+                <&kp T>,
+                <&macro_tap>;
+
+            label = "PASSWORD";
         };
     };
 
