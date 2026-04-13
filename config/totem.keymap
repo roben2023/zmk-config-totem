@@ -45,18 +45,6 @@
         };
     };
 
-    macros {
-        M1: M1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp LS(M) &kp R &kp T &kp W &kp O &kp UNDER &kp N5 &kp N0 &kp N7 &kp N1 &kp N9 &kp N0 &kp N3 &kp EXCL>,
-                <&macro_press>;
-
-            label = "M1";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
